@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Page title -->
+    <link rel="shortcut icon" href="logo.jpg" />
+    <title>VELORA</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">VELORA</div>
+      <nav class="nav">
+        <a href="#home" class="nav-home">Home</a>
+        <a href="#product" class="nav-products">Products</a>
+      </nav>
+      <div class="cart-icon">🛒 <span class="cart-count">0</span></div>
+    </header>
+
+    <div class="main-content">
+      <!-- Landing Page -->
+      <section id="home" class="landing-page">
+        <section id="home">
+          <img class="logo" src="icon/icon.jpg" />
+          <img src="products/product1.jpg" alt="" class="homeproduct1" />
+          <img src="products/product1.jpg" alt="" class="homeproduct2" />
+          <img src="products/product1.jpg" alt="" class="homeproduct3" />
+          <img src="products/product1.jpg" alt="" class="homeproduct4" />
+          <a href="#produc" class="explore">View Products</a>
+        </section>
+      </section>
+
+      <!-- Products Page -->
+      <section id="products" class="products-page" style="display: none">
+        <h2>Our Products</h2>
+        <div class="products-grid"></div>
+      </section>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+      <h3>Shopping Cart</h3>
+      <div class="cart-items"></div>
+      <div class="total-price">Total: $0</div>
+      <button class="buy-btn">Complete Purchase</button>
+    </div>
+
+    <script src="script/app.js"></script>
+  </body>
+</html>

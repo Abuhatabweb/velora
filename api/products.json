@@ -1,0 +1,19 @@
+[
+    {
+        "img": "products/product1.jpg",
+        "name": "Product 1 abuhatab",
+        "price": 100,
+        "description": "Great product",
+        "discount": 23,
+        "avilability": true
+    },
+    {
+        "img": "products/product1.jpg",
+        "name": "Product 2",
+        "price": 200,
+        "description": "Amazing item",
+        "discount": 0,
+        "avilability": false
+    }
+    
+]
